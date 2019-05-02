@@ -1,0 +1,77 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+	background-image: url(bg.jpg);
+	display: flex;
+	flex-wrap: wrap;
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+body {
+	background-color: rgba(0,0,0,1);
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 1);
+  }
+
+header.startup {
+  background-position: center;
+  background-image: url("machine.jpg") ;
+  background-size:contain;
+	background-repeat: no-repeat;
+  height: 100%;
+	float:left;
+	margin-left:10px;
+}
+
+header.startup hr {
+  margin-top: 400px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: brown;
+  border: 3px solid white; 
+	text-decoration: none;
+	}
+
+.btn-primary:hover {
+  background-color: #000;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+  color: brown;
+}
+.btn-primary a{
+color: white;
+}
+.btn-primary a:hover{
+	color: white;
+	text-decoration:none;}
+ 
